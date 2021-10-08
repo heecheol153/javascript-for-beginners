@@ -3,11 +3,15 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="css/style.css" />
     <title>Momentum App</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Baloo+Tammudu+2:wght@500;600&family=Noto+Sans+KR&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
-    <h2 id="clock">00:00:00</h2>
     <form class="hidden" id="login-form">
       <input
         required
@@ -17,24 +21,34 @@
       />
       <input type="submit" value="Log In" />
     </form>
+    <!--html自体 inputの有効性　結果を確認のため、必ず formタグの中にinputを使う事！
+      But, Submit時ページがrefreshされる　-->
+    <h2 id="clock" class="clock-font">00:00:00</h2>
     <h1 class="hidden" id="greeting"></h1>
     <form id="todo-form">
-      <input type="text" placeholder="Write a To Do and Press Enter" required />
+      <input
+        type="text"
+        placeholder="Write a To Do and Press the enter"
+        required
+      />
     </form>
     <ul id="todo-list"></ul>
-    <div id="quote">
+    <!-- Javascriptで使用者リスト追加-->
+    <div id="quote" class="quote-font">
       <span></span>
       <span></span>
     </div>
-    <div id="weather">
+    <div id="weather" class="weather-font">
       <span></span>
       <span></span>
     </div>
+    <div class="background-cover"></div>
     <script src="js/greetings.js"></script>
     <script src="js/clock.js"></script>
     <script src="js/quotes.js"></script>
     <script src="js/background.js"></script>
     <script src="js/todo.js"></script>
     <script src="js/weather.js"></script>
+    <!-- <a href="https://nomadcoders.co">Go to courses</a>-->
   </body>
 </html>
