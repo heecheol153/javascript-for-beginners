@@ -1,11 +1,11 @@
 const images = [
-  "0.jpg",
-  "2.jpg",
+  "10.jpeg",
+  "20.jpg",
+  "30.jpg",
+  "40.jpeg",
+  "50.jpg",
+  "60.jpg",
   "img01.jpg",
-  "img02.jpg",
-  "img03.jpg",
-  "img04.jpg",
-  "img05.jpg",
 ];
 const BACKGROUND = "background";
 const chosenImag = images[Math.floor(Math.random() * images.length)];
