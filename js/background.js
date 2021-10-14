@@ -5,6 +5,8 @@ const images = [
   "40.jpeg",
   "50.jpg",
   "60.jpg",
+  "70.jpg",
+  "80.jpeg",
   "img01.jpg",
 ];
 const BACKGROUND = "background";
