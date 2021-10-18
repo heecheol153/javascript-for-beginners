@@ -9,6 +9,7 @@ const images = [
   "80.jpeg",
   "90.jpg",
   "100.jpg",
+  "110.jpeg",
   "img01.jpg",
 ];
 const BACKGROUND = "background";
