@@ -13,6 +13,9 @@ const images = [
   "120.jpeg",
   "130.jpeg",
   "140.jpg",
+  "150.jpg",
+  "160.jpeg",
+  "170.jpeg",
   "img01.jpg",
 ];
 const BACKGROUND = "background";
