@@ -22,7 +22,7 @@ const images = [
   "210.jpeg",
   "220.jpeg",
   "230.jpg",
-  "240.jpeg",
+  "240.jpg",
   "img01.jpg",
 ];
 const BACKGROUND = "background";
